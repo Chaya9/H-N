@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 public class grid_demo1 {
 	@Test
 	public void function1() throws MalformedURLException{
-	URL remoteAddress = new URL("http://10.10.4.86:4444/wd/hub");
+	URL remoteAddress = new URL("http://10.10.4.87:4460/wd/hub");
 	WebDriver driver = new RemoteWebDriver(remoteAddress,DesiredCapabilities.firefox());
 	driver.get("https://www.gmail.com");
 	driver.close();
