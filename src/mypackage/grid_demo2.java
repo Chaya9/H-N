@@ -18,7 +18,7 @@ public class grid_demo2 {
 	public void function1(XmlTest t) throws MalformedURLException{
 	String browser = t.getParameter("browser");
 	Reporter.log("browser",true);
-	URL remoteAddress = new URL("http://10.10.4.87:4445/wd/hub");
+	URL remoteAddress = new URL("http://10.10.4.87:4460/wd/hub");
 	DesiredCapabilities capability = new DesiredCapabilities();
 	capability.setBrowserName(browser);
 	//capability.setPlatform(Platform.LINUX);
